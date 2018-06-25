@@ -21,6 +21,16 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0 auto;
 }
 
+.title{
+	font-family: 'Myriad Pro', Arial;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+
 header {
 	background: #46243c;
 }
@@ -57,7 +67,7 @@ header {
 	padding: 0 8px 0 0;
 	margin: 17px auto;
 }
-
+						/* Gamburger icon */
 
 #gamburger{
 	width: 25px;
@@ -122,6 +132,8 @@ li#gamburger{
 	width: 300px;
 }
 
+					/* Sign Up button */
+
 .dow {
 	float: right;
 	width: 117px;
@@ -137,43 +149,28 @@ li#gamburger{
     font-size: 17px;
 }
 
+
+				/* Первый блок*/
 #first {
 
 	background: #6f5467;
-}
-
+}					
 #first_section{
 	width: 100%;
 	display: flex; 
-	justify-content:space-between;
-	
-
+	justify-content:space-between;	
 }
-
 #first h2 {
 	width: 410px;
 	margin: 40px auto;
 	font-size: 35px;
-    
-
 }
 
-.title{
-	font-family: 'Myriad Pro', Arial;
-    font-weight: 300;
-    font-style: normal;
-    text-transform: uppercase;
-	text-align: center;
-	letter-spacing: 1px;
-
-}
-#title {
-	
+#title {	
 	margin: 0 auto;
 	margin-top: 70px;
 	width: 575px;
-	display: table;
-	
+	display: table;	
 }
 #title p {
 	width: 560px;
@@ -188,18 +185,15 @@ li#gamburger{
 	display: table;
 	position: relative;
 }
-
 .smart_img img{
 	position: absolute;
 	margin-top: 55px;
 }
-
 #dwn{
 	display: table;
 	margin: 0 auto;
 }
-#dwn button {
-	
+#dwn button {	
 	background: #d35400;
 	border: none;
 	width: 299px;
@@ -217,12 +211,12 @@ li#gamburger{
     font-style: normal;
     letter-spacing: 1px; 
 }
-
+						
+						/* Второй блок */
+						
 #second_section {
-	background: #4dae96;
-	
+	background: #4dae96;	
 }
-
 .title_text{
 	padding-top: 130px;
 	margin: 0 auto;
@@ -242,7 +236,6 @@ li#gamburger{
 	width: 250px;
 	padding: 15px 30px;
 }
-
 .item1 p {
 	padding-top: 50px;
 }
@@ -257,28 +250,25 @@ li#gamburger{
 .item1 img{
 	margin: 0 25%;
 }
-
+ 					/* Третий блок */
 
 #third_section{
 	background: #8d9db5;
 	text-align: center;
 }
-
 #third_section h2{
 	padding-top: 65px;
-	font-size: 28px;
-	
+	font-size: 28px;	
 }
-
-
 #third_section p{
 	font-size:14px;
 	padding-bottom: 50px;
 }
+.third_section__video{
+	margin: 0 auto;
+}
 
-
-
-
+                            /* Адаптив */
 
 
 @media screen and (max-width: 960px) {
@@ -293,11 +283,8 @@ li#gamburger{
 		position: absolute;
 		z-index: -1;
 		transition: 2s;
-		transform: translate(-100px, -232px);
-		
-
+		transform: translate(-100px, -302px);
 	} 
-
 	#nav{
 		position: relative;
 		z-index: 3;
@@ -315,25 +302,19 @@ li#gamburger{
 		float: right;
 		position: relative;
 		margin-top: 20px;
-		width: 50px;
-		
+		width: 50px;	
 	}
-
 	.nav li, a {
 		width: 100%;
 		text-align: center;
 	}
-
 	.nav:hover div#hover{
 		display: table;
-		transform: translate(-100px, 29px);
-		
+		transform: translate(-100px, 29px);	
 	}
-
    #gamburger{
-   	display: table;
+   	    display: table;
    } 
-	
     #title {
     	margin:30px auto;
     	max-width: 425px;
@@ -343,21 +324,18 @@ li#gamburger{
 
 @media screen and (max-width: 640px) {
     .container {
-      width: 425px;
-      margin: 0 auto;
+        width: 425px;
+        margin: 0 auto;
     }
-
 	 #title {
     	max-width: 360px;
     }
     #title h2 {
     	width: 359px;
     }
-
     #logo h6{
     	display: none;
     }
-
     #logo {
     	width: 60px;
     }
