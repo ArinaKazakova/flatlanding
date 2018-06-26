@@ -233,6 +233,12 @@ li#gamburger{
 	background:#ea5f02;
 }
 
+#modal {
+	width: 300px;
+	color:#2c3e50;
+	text-align: center;
+}
+
 /* Второй блок */
 
 #second_section {
@@ -269,7 +275,7 @@ li#gamburger{
 }
 
 .item1 img{
-	margin: 0 25%;
+	margin: 0 27%;
 }
 /* Третий блок */
 
@@ -405,7 +411,7 @@ a.tw{
 	} 
 	#title {
 		margin:30px auto;
-		max-width: 425px;
+		max-width: 560px;
 	}
 	#first_section {
 		flex-direction: column;
@@ -442,6 +448,7 @@ a.tw{
 	}
 	#title h2 {
 		width: 359px;
+		font-size: 26px;
 	}
 	#logo h6{
 		display: none;
@@ -452,4 +459,52 @@ a.tw{
 
 }
 
+
+@media screen and (max-width: 460px){
+	.container {
+		width: 320px;
+		margin: 0 auto;
+	}
+	#logo{
+		margin-left: 10px;
+	}
+	#title{
+		width: 315px;
+	}
+
+	#title p{
+		max-width: 315px;
+	}
+
+	#title h2 {
+		width: 300px;
+		margin: 10px;
+	}
+	#dwn a{
+		width: 250px;
+	}
+	.title_text{
+		width: 315px;
+	}
+
+	.item1 p {
+		text-align: center;
+	}
+	
+
+	.item1:first-child{
+	padding-left: 30px;
+}
+
+.item1:last-child {
+	padding-right: 30px;
+
+}
+ .item1 img{
+	margin: 0 33%;
+}
+div.dwn__bottom{
+	padding-bottom: 50px;
+}
+}
 
