@@ -418,14 +418,27 @@ a.tw{
 
 }
 
+@media screen and (max-width: 788px) {
 
-@media screen and (max-width: 640px) {
+	.container {
+		width: 640px;
+		margin: 0 auto;
+	}
+
+
+}
+
+
+@media screen and (max-width: 650px) {
 	.container {
 		width: 425px;
 		margin: 0 auto;
 	}
 	#title {
 		max-width: 360px;
+	}
+	#title p{
+		max-width: 355px;
 	}
 	#title h2 {
 		width: 359px;
@@ -439,4 +452,4 @@ a.tw{
 
 }
 
-@media screen and (max-width: 540px)
+
