@@ -366,7 +366,7 @@ a.tw{
 		position: absolute;
 		z-index: -1;
 		transition: 2s;
-		transform: translate(-100px, -302px);
+		transform: translate(-93px, -302px);
 	} 
 	#nav{
 		position: relative;
@@ -390,10 +390,15 @@ a.tw{
 	.nav li, a {
 		width: 100%;
 		text-align: center;
+		
+	}
+
+	.nav a{
+		padding:20px 0;
 	}
 	.nav.active div#hover{
 		display: table;
-		transform: translate(-100px, 29px);	
+		transform: translate(-93px, 29px);	
 	}
 	#gamburger{
 		display: table;
@@ -433,3 +438,5 @@ a.tw{
 	}
 
 }
+
+@media screen and (max-width: 540px)
