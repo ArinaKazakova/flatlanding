@@ -206,7 +206,7 @@ li#gamburger{
 	margin-top: 55px;
 }
 #dwn{
-	
+
 	display: table;
 	margin: 0 auto;
 }
@@ -237,9 +237,28 @@ li#gamburger{
 }
 
 #modal {
-	width: 300px;
+	width: 420px;
 	color:#2c3e50;
 	text-align: center;
+	background: #4dae96;
+}
+
+.send_mail__field {
+	margin: 10px 5px;
+	padding: 7px 10px;
+	border: none;
+	width: 90%;
+}
+
+.send_mail__checkbox{
+	margin: 20px auto;
+}
+
+.button_send{
+	background: #a5dcce;
+}
+.button_send:hover{
+   background: #88EFD1;
 }
 
 /* Второй блок */
@@ -518,5 +537,8 @@ a.tw{
 	div.dwn__bottom{
 		padding-bottom: 50px;
 	}
+
+	#modal {
+	width: 315px;
 }
 

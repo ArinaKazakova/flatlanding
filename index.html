@@ -46,8 +46,17 @@
       <div id="dwn"><a data-fancybox data-src="#modal" href="javascript:;"  href="#">Download now</a> </div>
 
       <div style="display: none;" id="modal">
-        <h2>Hello!</h2>
-        <p>You are awesome!</p>
+        <form action="" class="send_mail"></form>
+        <input class="send_mail__field" maxlength="50" type="text" name="name" placeholder="Your name">
+
+        <input class="send_mail__field" maxlength="50" type="email" name="email" placeholder="Your e-mail">
+
+        <textarea type="text" class="send_mail__field"  wrap="physical"  name="message" placeholder="Type your message" rows="12" value=""></textarea><br>
+
+        <input class="send_mail__checkbox" type="checkbox">  Send a copy to my Email <br>
+
+        <input class="send_mail__field button_send" type="submit" value="Send">
+
       </div>
 
     </div>
@@ -67,7 +76,7 @@
       <div class="item1"><img src="img/stat.png" alt=""><p><b>Lorem ipsum dolor sit amet</b>, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></div>
       <div class="item1"><img src="img/rocket.png" alt=""><p><b>Lorem ipsum dolor sit amet</b>, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></div>
     </div>
-     <div id="dwn" class="dwn__bottom"><a data-fancybox data-src="#modal" href="javascript:;"  href="#">Download now</a> </div>
+    <div id="dwn" class="dwn__bottom"><a data-fancybox data-src="#modal" href="javascript:;"  href="#">Download now</a> </div>
   </div>
 </div>
 </section>
@@ -77,7 +86,7 @@
     <h2 class="title">Here is a short video presentation about our product</h2>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.sem.</p>
     <div class="third_section__video">
-      <iframe style="border-radius: 6px;" width="654" height="395" src="https://www.youtube.com/embed/NWDUg1skBeY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe style="border-radius: 6px; max-width:100%;" width="654" height="395" src="https://www.youtube.com/embed/NWDUg1skBeY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
   </div>
 </section>
