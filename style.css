@@ -349,7 +349,10 @@ a.tw{
 	
 }
 
-
+iframe {
+	 width:654; 
+	 height:395;
+}
 
 
 
@@ -421,6 +424,13 @@ a.tw{
 	#dwn a {
 		margin-bottom: 0px;
 	}
+.item1 {
+	text-align: center;
+}
+
+	div .dwn__bottom  {
+	padding-bottom: 60px;
+}
 
 }
 
@@ -430,6 +440,8 @@ a.tw{
 		width: 640px;
 		margin: 0 auto;
 	}
+
+
 
 
 }
