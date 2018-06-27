@@ -142,6 +142,7 @@ li#gamburger{
 /* Sign Up button */
 
 .dow {
+	user-select: none;
 	float: right;
 	width: 117px;
 	background: #4dae96;
@@ -205,10 +206,12 @@ li#gamburger{
 	margin-top: 55px;
 }
 #dwn{
+	
 	display: table;
 	margin: 0 auto;
 }
 #dwn a {	
+
 	background: #d35400;
 	border: none;
 	width: 299px;
@@ -349,10 +352,6 @@ a.tw{
 	
 }
 
-iframe {
-	 width:654; 
-	 height:395;
-}
 
 
 
@@ -391,6 +390,7 @@ iframe {
 		background: #46243c;
 	}
 	.nav {
+
 		float: right;
 		position: relative;
 		margin-top: 20px;
@@ -424,13 +424,13 @@ iframe {
 	#dwn a {
 		margin-bottom: 0px;
 	}
-.item1 {
-	text-align: center;
-}
+	.item1 {
+		text-align: center;
+	}
 
 	div .dwn__bottom  {
-	padding-bottom: 60px;
-}
+		padding-bottom: 60px;
+	}
 
 }
 
@@ -505,18 +505,18 @@ iframe {
 	
 
 	.item1:first-child{
-	padding-left: 30px;
-}
+		padding-left: 30px;
+	}
 
-.item1:last-child {
-	padding-right: 30px;
+	.item1:last-child {
+		padding-right: 30px;
 
-}
- .item1 img{
-	margin: 0 33%;
-}
-div.dwn__bottom{
-	padding-bottom: 50px;
-}
+	}
+	.item1 img{
+		margin: 0 33%;
+	}
+	div.dwn__bottom{
+		padding-bottom: 50px;
+	}
 }
 
