@@ -241,9 +241,11 @@ li#gamburger{
 	color:#2c3e50;
 	text-align: center;
 	background: #4dae96;
+	border-radius: 7px;
 }
 
 .send_mail__field {
+	border-radius: 7px;
 	margin: 10px 5px;
 	padding: 7px 10px;
 	border: none;
